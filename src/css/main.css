@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 13px;  
+    right: 20%;
+}
+
+ul a:hover {
+    background-color: #011889;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #445ac6;
+    padding: 10px 20px;
+    order: 1;
+}
+  
+.hero-text h1{
+    font-size: 3.5rem; 
+    top: 45%;
+    left: 3%;
+    position: absolute;
+    color: #ffffff;   
+}
+
+.hero-text h2{
+    font-size: 2.7rem; 
+    top: 55%;
+    left: 3%;
+    position: absolute;
+    color: #ffffff;
+}
+
+.container{
+    height: 100vh;
+    width: 97.5vw;
+    background-image: url("../image/Riga2.jpg");
+}
+
+.text-big{
+    color: #011267;
+    text-align: center;
+    justify-content: center;
+}
+
+section{
+    background-color: #93aced;
+    color: #ffffff;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position:relative;  
+}
+
+.box-main{
+    height: 100vh;
+    width: 97vw;   
+}
+
+.firstHalf{
+    margin-left: 10px; 
+}
+
+.picture{
+    height: 30vh;
+    width: 11vw;   
+}
+
+.logo  {
+   margin-left: auto;
+   order: 2;
+}
+.logo img{
+    width: 50px;
+    border-radius: 60%;
+}
+
+.photo{
+    height: 150px;
+    width: 300px;
+    padding: 25px;
+}
+
+.town{
+    height: 200px;
+    width: 220px;
+    padding: 25px;
+}
+
+.city{
+    height: 200px;
+    width: 240px;
+    padding: 25px; 
+}
+
+.old-town{
+    height: 200px;
+    width: 150px;
+    padding: 25px;
+}
