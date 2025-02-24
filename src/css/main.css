@@ -20,7 +20,7 @@ nav {
 }
   
 .hero-text h1{
-    font-size: 3.5rem; 
+    font-size: 4rem; 
     top: 45%;
     left: 3%;
     position: absolute;
@@ -28,7 +28,7 @@ nav {
 }
 
 .hero-text h2{
-    font-size: 2.7rem; 
+    font-size: 3.8rem; 
     top: 55%;
     left: 3%;
     position: absolute;
@@ -37,7 +37,6 @@ nav {
 
 .container{
     height: 100vh;
-    width: 100vw;
     background-image: url("../image/Riga2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,6 +46,11 @@ nav {
     color: #011267;
     text-align: center;
     justify-content: center;
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 25px;
 }
 
 section{
