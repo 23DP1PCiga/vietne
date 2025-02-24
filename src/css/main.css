@@ -77,11 +77,16 @@ footer{
 
 .firstHalf{
     margin-left: 10px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .picture{
     height: 30vh;
     width: 11vw;   
+    margin-inline: auto;
 }
 
 .logo  {
